@@ -1,0 +1,46 @@
+---
+label: rider
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: permalink
+  label: permalink
+- type: text
+  name: riderName
+  label: riderName
+- type: text
+  name: riderClass
+  label: riderClass
+- type: file
+  name: riderIamge
+  label: riderIamge
+- type: textarea
+  name: riderIntro
+  label: riderIntro
+- type: text
+  name: born
+  label: born
+- type: text
+  name: birthday
+  label: birthday
+- type: text
+  name: height
+  label: height
+- type: text
+  name: weight
+  label: weight
+- type: number
+  name: professionalSince
+  label: professionalSince
+- type: text
+  name: speciality
+  label: speciality
+- type: number
+  name: UCIranking
+  label: UCIranking
