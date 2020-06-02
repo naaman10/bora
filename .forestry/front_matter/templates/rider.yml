@@ -59,3 +59,7 @@ fields:
 - type: number
   name: UCIranking
   label: UCIranking
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
