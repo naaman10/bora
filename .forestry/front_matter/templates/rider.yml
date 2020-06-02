@@ -13,10 +13,28 @@ fields:
   label: permalink
 - type: text
   name: riderName
-  label: riderName
+  label: Rider Name
 - type: text
   name: riderClass
   label: riderClass
+- name: speciality
+  type: select
+  default: Allrounder
+  config:
+    required: false
+    options:
+    - Allrounder
+    - Climber
+    - Sprinter
+    - Time Trialist
+    - GC
+    - Classics
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Speciality
 - type: file
   name: riderIamge
   label: riderIamge
@@ -38,9 +56,6 @@ fields:
 - type: number
   name: professionalSince
   label: professionalSince
-- type: text
-  name: speciality
-  label: speciality
 - type: number
   name: UCIranking
   label: UCIranking
