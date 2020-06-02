@@ -14,9 +14,6 @@ fields:
 - type: text
   name: riderName
   label: Rider Name
-- type: text
-  name: riderClass
-  label: riderClass
 - name: speciality
   type: select
   default: Allrounder
