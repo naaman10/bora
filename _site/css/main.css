@@ -1,0 +1,43 @@
+body { font-family: futura-pt, sans-serif; font-style: normal; font-weight: 300; font-size: 22px; scroll-behavior: smooth; }
+
+h1, h2, h3, h4, h5 { font-family: 'Ubuntu', sans-serif; }
+
+.navbar { padding-left: 100px; padding-right: 100px; }
+
+.navbar-brand img { width: 180px; }
+
+.home-header { height: 80vh; background-position: center; background-repeat: no-repeat; background-size: cover; display: flex; }
+
+.home-news { height: 33vw; background-color: #009C82; }
+
+.btn-primary { background-color: #009C82; color: white; border-color: #009C82; }
+
+.team-filter { margin-top: 40px; margin-bottom: 40px; }
+
+.btn-group .btn + .btn { margin-top: 0; }
+
+.btn-bh { background: #009970; border: 0; padding: 10px 30px; color: #fff; transition: 0.4s; border-radius: 50px; }
+
+.team-card { display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-around; align-items: center; }
+
+.team-card h2 { text-transform: uppercase; }
+
+.team-card-image { width: 33%; height: 400px; background-color: #009C82; border-radius: 10px; background-position: center; background-size: cover; }
+
+.team-card-body { width: 50%; padding: 20px; }
+
+ul.social-list { list-style: none; padding-left: 0; }
+
+.social-list li { display: inline; }
+
+.rider-header { height: 100vh; background-color: #000003; color: white; }
+
+.rider-bio { display: flex; align-items: center; }
+
+.rider-intro { display: flex; flex-direction: column; align-items: self-start; text-align: left; }
+
+.rider-image { height: 100vh; }
+
+.rider-stats { height: 100vh; margin-top: 60px; }
+
+/*# sourceMappingURL=main.css.map */

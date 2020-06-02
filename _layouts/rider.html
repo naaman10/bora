@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<section class="rider-header">
+  <div class="contaienr">
+    <div class="row">
+      <div class="col-sm-12 col-md-6">
+        <img src="{{site.github.url}}{{page.riderIamge}}" class="rider-image">
+      </div>
+      <div class="col-sm-12 col-md-6 rider-bio">
+        <div class="rider-intro">
+          <h1>{{ page.riderName }}</h1>
+          <p class="badge badge-light">{{ page.riderClass }}</p>
+          <p>{{ page.riderIntro }}
+          <div class="social">
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fas fa-external-link-alt"></i></a>
+          </div>
+          <a href="#rider-stats" class="btn btn-primary">View stats</a>
+        </div>
+
+      </div>
+    </div>
+</section>
+<section class="rider-stats">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 id="rider-stats">Rider Stats</h2>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>born</td>
+              <td>Zilina, SVK</td>
+            </tr>
+            <tr>
+              <td>birthday</td>
+              <td>26.01.1990</td>
+            </tr>
+            <tr>
+              <td>height</td>
+              <td>78kg</td>
+            </tr>
+            <tr>
+              <td>professional since</td>
+              <td>2009</td>
+            </tr>
+            <tr>
+              <td>speciality</td>
+              <td>Allrounder</td>
+            </tr>
+            <tr>
+              <td>UCI ranking</td>
+              <td>451</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-sm-12 col-md-6">
+        <table class="table">
+          <tbody>
+            <tr>
+              <td>born</td>
+              <td>{{ page.born }}</td>
+            </tr>
+            <tr>
+              <td>birthday</td>
+              <td>{{ page.birthday }}</td>
+            </tr>
+            <tr>
+              <td>height</td>
+              <td>{{ page.height }}</td>
+            </tr>
+            <tr>
+              <td>professional since</td>
+              <td>{{ page.professionalSince }}</td>
+            </tr>
+            <tr>
+              <td>speciality</td>
+              <td>{{ page.speciality }}</td>
+            </tr>
+            <tr>
+              <td>UCI ranking</td>
+              <td>{{ page.UCIranking }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      </div>
+    </div>
+</section>
